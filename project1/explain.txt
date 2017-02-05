@@ -1,0 +1,5 @@
+This project is pretty simple: a jpeg file reader which supports APP1 format. It can extract information of the image from its binary numbers.
+
+Feel free to try it by using command line argument.
+
+Copyright 2017 Zhisheng Xu
