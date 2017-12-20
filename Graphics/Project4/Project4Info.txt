@@ -1,0 +1,17 @@
+Project 4 is a free style project. I did a very simple temple run style game where a ball rolling on an “infinite” grassland and trying to dodge the objects that coming along the way.
+
+I basically developed this game from lab 5. Instead of using random solid colors, I used the 2Dtexture to simulate the effect of the grassland. By using photoshop, an RGB formate raw file is able to be converted from most image files online. Then the program reads in the raw file one byte at a time and put all the data into texture array. 
+
+
+For collision detection, I really can not find a simple way of doing this. So I just decided to make everything simple: the distance formula. The program will simply measure the distance between the center points of the obstructs’ and the sphere’s, if that distance smaller than a certain amount, the collision happens. It turns out this method perform pretty well given it is that simple.
+
+
+Also I applied the lighting model and fake shadow techniques from project 3 on the red sphere to make scene more colorful.
+
+Simply use ‘a’, ‘d’ and space to control the ball. When the ball hits something, the scene will be paused and texts will be printed out in the console.
+
+
+The jumping function of the ball currently is implemented but the collision for jumping is not as accurate as I expect. I am still working on a more precise detection for jumping.
+
+
+Zhisheng Xu

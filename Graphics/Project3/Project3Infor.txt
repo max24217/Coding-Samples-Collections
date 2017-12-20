@@ -1,0 +1,11 @@
+The main goal of project3 is to apply Phong’s reflection model in openGl. It is the first attempt to dynamically calculate vertex color according light sources instead of merely assigning fixed colors. 
+
+Basically there is a green table and spheres on it. Each sphere has its own color and material properties. The initial position of the light source (white) is at the top of the  center ball. User can use ‘a’, ‘d’, ‘z’ or ‘x’ to control the light source. Furthermore, press ‘g’ will make all the balls rotating around the center ball with different speed. For each movement, the normals for every vertexes are recalculated and send to graphic pipeline in order to update the lighting effect correctly.
+
+In addition, I also applied a fake shadow math model to create fake dynamic shadows on the table. Instead of complicated rendering the shadow colors, I simply calculated the shadow vertex that corresponding to each real object vertex and draw a shadow on the table with black color. If there are 5 balls in the scene, there are actually 10 objects in the scene. 
+
+In order to speed up the calculation process, I did everything inside the vertex shader file instead of inside the application. 
+
+
+
+Zhisheng Xu

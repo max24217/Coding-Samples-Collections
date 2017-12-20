@@ -1,0 +1,6 @@
+Project 2 is a simple maze solver simulation for a simple connected maze by using right hand rule. Each run the connected maze is random generated from genMaze.c and starting point is always the left right most corner. In addition, since it is the first time for me to implement frustum and lookAt function, I made camera looking at the center of the maze and rotate around it before solving the maze. 
+
+After the rotation of the camera, simply press ‘k’ and it will begin to solve the maze.
+
+
+Zhisheng Xu

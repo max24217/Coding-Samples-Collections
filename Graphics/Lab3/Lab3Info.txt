@@ -1,0 +1,6 @@
+The goal of lab3 was to handle the movement of different objects in a single scene at a time. In order to use self-programmed vertex shader and graphic pipeline, all rotation and other movement were implemented from the beginning of math itself. 
+
+In current scene, there are four cubes with different colors rotating at different speed with different rotation orientation. 
+
+
+Zhisheng Xu

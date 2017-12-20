@@ -1,0 +1,6 @@
+Lab5 is trying to create a temple run style scene where the protagonist (The sphere in this case) is rolling on an “infinite” ground.
+
+The truth is: there is no infinite ground and the ball is not actually moving at all. There are in total 20 planes in the scene and I just reuse and relocate them once they pass the camera’s view. By carefully adjusting frustum and eye point, viewer will have a fake feeling of infinite ground. As for the sphere, it is just self rotating at the origin without actually moving its world coordinate. The planes are coming toward the sphere instead. 
+
+
+Zhisheng Xu

@@ -1,0 +1,7 @@
+Everything in Graphics folder will be related to openGL. They are the projects and assignments from my CS1566 class. Since I am using Mac, everything will be done inside the Xcode. Xcode already include openGL and GLUT library by default. The other two libraries needed are glfw(at least 3.2) and GLEW(at least 2.1.0). They are all available online.
+The Libraries image file in current directory is the sample environment that I run all the projects on.
+
+In addition, all assignments and projects are using self-programmed graphic pipeline which means glut’s basic libraries will not be apposite. Instead, all the functions varying from rotation and translation to frustum and lighting model will be implemented from basic math models.
+
+
+Zhisheng Xu

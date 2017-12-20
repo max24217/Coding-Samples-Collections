@@ -1,0 +1,4 @@
+Lab4 is the preparation for project 1. Basically I used triangles to construct a very simple sphere with random colors for each triangles. In total there are only 1128 vertexes  are used so it is a very rough sphere. In lab4 the sphere can not move but all kinds of motions are included in project1. 
+
+
+Zhisheng Xu
